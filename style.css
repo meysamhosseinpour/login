@@ -1,0 +1,67 @@
+body{
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(45,45,163,1) 0%, rgba(0,212,255,1) 92%);
+}
+div.login{
+  width: 282px;
+  height: 345px; 
+background-color: aliceblue;
+border: 1px solid rgba(0,212,255,1);
+margin: 175px 0px  0px 300px;
+border-radius: 10px;
+}
+a{
+text-decoration: none;
+}
+a.login{
+margin-left: 65px;
+color: rgb(13, 135, 249);
+}
+button{
+  width: 215px;
+  height: 29px;
+  margin: 0px 0px 8px 29px;
+cursor: pointer;
+  background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%,
+ rgba(45,45,163,1) 0%, rgba(0,212,255,1) 92%);
+color: aliceblue;
+border: none;
+}
+button:hover{
+  background: rgb(2,0,36);
+background: linear-gradient(90deg,
+ rgba(2,0,36,1) 0%, rgba(0,212,255,1) 0%, 
+ rgba(45,45,163,1) 100%);
+}
+input[type=text]{
+ width: 244px;
+ border: none;
+  margin-left: 15px;
+   padding:16px 0px 10px 7px;
+  border-bottom: 1px solid rgba(0,212,255,1);
+}
+input[type=email]{
+  width: 244px;
+  border: none;
+  border-bottom: 1px solid rgba(0,212,255,1);
+  margin-left: 15px;
+    padding:16px 0px 10px 7px;
+}
+input[type=password]{
+  width: 244px;
+  border: none;
+  border-bottom: 1px solid rgba(0,212,255,1);
+  margin: 0px 0px 20px 15px;
+  padding:16px 0px 10px 7px;
+}
+a.forgot{
+  margin: 0px 0px 0px 80px ;
+ 
+  color:black;
+}
+a.create{
+  margin: 0px 0px 0px 88px;
+  color: rgb(88, 121, 239) ;
+  font-size: 14px;
+}
